@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta content="telephone=no" name="format-detection" />
+    <link
+      rel="shortcut icon" href="../publick/favicon.png" type="image/x-icon"/>
+
+    <title>Marvel API</title>
+    <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+
+     <!-- файл App.css полностбю импортирован в App.js-> CSS сам по себе глобальный. А Parcell настроен ВСЕ подключать (в т.ч. CSS) -> в index.html -->
+     <!-- Parcell подключит ВСЕ ф-лы CSS -> в index.html -->
+
+  </head>
+  <body>
+    <main class="wrapper">
+      <div id="root"></div> <!-- Главный экран -Список КОМИКСОВ -->
+      <div id="modal"></div> <!-- Модальное окно - ДЕТАЛИЗАЦИЯ ПО КОНКРЕТНОМУ КОМИКСУ - Фотки и Имена персонажей-->
+  
+    </main>
+
+	   <script src="../src/index.js"></script>
+     <!-- Подключаем только ОДИН ФАЙЛ - но сюда можно ИМПОРТИРОВАТЬ ЛЮБЫЕ СКРИПТЫ из МНОЖЕСТВА других ф-лов (module-1.js, App.js)-->
+  </body>
+</html>

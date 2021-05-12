@@ -1,0 +1,30 @@
+/* В Notification.js стр.13-16  классы прописали вручную */
+
+.notification__container {
+/* Задаем ПОВЕРХ основного контента - ЛЕВЫЙ НИЖНИЙ угол */
+  position: fixed;
+  bottom: 25px;
+  left: 20px;
+
+  border: 1px solid red;
+  padding: 10px 20px;
+  color: green;
+  background-color: white;
+
+/* Расположим - Четко ОДИН ЗА ДРУГИМ И ОТЦЕНТРУЕМ */
+  display: flex;
+  align-items: center;
+}
+
+
+/*____ Стилизуем КНОПКУ - КРАСНЫЙ БЕЛЫЙ КРЕСТИК (Notification.js - стр.16)_____ */
+.notification__close {
+/* Задаем размеры КРЕСТИКА - иначе он БУДЕТ НЕВИДЕН */
+  width: 35px;
+  height: 35px;
+
+  margin-left: 15px;
+  border: none; /* Граници - нет */
+  background: none; /* ФОн - Прозрачный */
+  cursor: pointer; /* Курсор - Рука */
+}
